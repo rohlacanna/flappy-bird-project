@@ -17,14 +17,13 @@
   overflow: hidden;
 }
 
-.bird {
+.passaro {
   position: absolute;
   width: 60px;
   left: calc(50% - 30px);
-  bottom: 50%;
 }
 
-.pair-of-barriers {
+.par-de-barreiras {
   position: absolute;
   top: 0;
   height: 100%;
@@ -33,20 +32,20 @@
   justify-content: space-between;
 }
 
-.barriers {
+.barreira {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.barriers .barrier-edge {
+.barreira .borda {
   height: 30px;
   width: 130px;
   background: linear-gradient(90deg, #639301, #a5e82e);
   border: 2px solid #000;
 }
 
-.barriers .barrier-body {
+.barreira .corpo {
   height: 150px;
   width: 110px;
   background: linear-gradient(90deg, #639301, #a5e82e);
@@ -54,7 +53,7 @@
   border-right: 2px solid #000;
 }
 
-.progress {
+.progresso {
   position: absolute;
   top: 10px;
   right: 10px;
